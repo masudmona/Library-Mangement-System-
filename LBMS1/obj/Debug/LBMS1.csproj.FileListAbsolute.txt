@@ -1,0 +1,25 @@
+C:\Users\BlackKite\Documents\Visual Studio 2013\Projects\LBMS1\LBMS1\bin\Debug\LBMS1.exe.config
+C:\Users\BlackKite\Documents\Visual Studio 2013\Projects\LBMS1\LBMS1\bin\Debug\LBMS1.exe
+C:\Users\BlackKite\Documents\Visual Studio 2013\Projects\LBMS1\LBMS1\bin\Debug\LBMS1.pdb
+C:\Users\BlackKite\Documents\Visual Studio 2013\Projects\LBMS1\LBMS1\obj\Debug\LBMS1.Form14_emp.resources
+C:\Users\BlackKite\Documents\Visual Studio 2013\Projects\LBMS1\LBMS1\obj\Debug\LBMS1.Form13_teacher.resources
+C:\Users\BlackKite\Documents\Visual Studio 2013\Projects\LBMS1\LBMS1\obj\Debug\LBMS1.Form11_credits.resources
+C:\Users\BlackKite\Documents\Visual Studio 2013\Projects\LBMS1\LBMS1\obj\Debug\LBMS1.Form10_users.resources
+C:\Users\BlackKite\Documents\Visual Studio 2013\Projects\LBMS1\LBMS1\obj\Debug\LBMS1.Form9_backup.resources
+C:\Users\BlackKite\Documents\Visual Studio 2013\Projects\LBMS1\LBMS1\obj\Debug\LBMS1.Form8_BookReturn.resources
+C:\Users\BlackKite\Documents\Visual Studio 2013\Projects\LBMS1\LBMS1\obj\Debug\LBMS1.Form7_BookIssue.resources
+C:\Users\BlackKite\Documents\Visual Studio 2013\Projects\LBMS1\LBMS1\obj\Debug\LBMS1.Form4_info.resources
+C:\Users\BlackKite\Documents\Visual Studio 2013\Projects\LBMS1\LBMS1\obj\Debug\LBMS1.Form0_login.resources
+C:\Users\BlackKite\Documents\Visual Studio 2013\Projects\LBMS1\LBMS1\obj\Debug\LBMS1.Form3_account.resources
+C:\Users\BlackKite\Documents\Visual Studio 2013\Projects\LBMS1\LBMS1\obj\Debug\LBMS1.Form6_membership.resources
+C:\Users\BlackKite\Documents\Visual Studio 2013\Projects\LBMS1\LBMS1\obj\Debug\LBMS1.Form12_std.resources
+C:\Users\BlackKite\Documents\Visual Studio 2013\Projects\LBMS1\LBMS1\obj\Debug\LBMS1.Form1_dashboard.resources
+C:\Users\BlackKite\Documents\Visual Studio 2013\Projects\LBMS1\LBMS1\obj\Debug\LBMS1.Form2_Books.resources
+C:\Users\BlackKite\Documents\Visual Studio 2013\Projects\LBMS1\LBMS1\obj\Debug\LBMS1.Properties.Resources.resources
+C:\Users\BlackKite\Documents\Visual Studio 2013\Projects\LBMS1\LBMS1\obj\Debug\LBMS1.csproj.GenerateResource.Cache
+C:\Users\BlackKite\Documents\Visual Studio 2013\Projects\LBMS1\LBMS1\obj\Debug\LBMS1.exe
+C:\Users\BlackKite\Documents\Visual Studio 2013\Projects\LBMS1\LBMS1\obj\Debug\LBMS1.pdb
+C:\Users\BlackKite\Documents\Visual Studio 2013\Projects\LBMS1\LBMS1\obj\Debug\LBMS1.csprojResolveAssemblyReference.cache
+D:\project\LBMS1\LBMS1\bin\Debug\LBMS1.exe.config
+D:\project\LBMS1\LBMS1\obj\Debug\LBMS1.exe
+D:\project\LBMS1\LBMS1\obj\Debug\LBMS1.pdb

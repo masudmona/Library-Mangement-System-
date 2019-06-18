@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9BD035F3-FF28-40AE-B685-99302645DF0C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LBMS1</RootNamespace>
+    <AssemblyName>LBMS1</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form14_emp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form14_emp.designer.cs">
+      <DependentUpon>Form14_emp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form13_teacher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form13_teacher.designer.cs">
+      <DependentUpon>Form13_teacher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form11_credits.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form11_credits.designer.cs">
+      <DependentUpon>Form11_credits.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form10_users.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form10_users.designer.cs">
+      <DependentUpon>Form10_users.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form9_backup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form9_backup.designer.cs">
+      <DependentUpon>Form9_backup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form8_BookReturn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form8_BookReturn.designer.cs">
+      <DependentUpon>Form8_BookReturn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form7_BookIssue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form7_BookIssue.designer.cs">
+      <DependentUpon>Form7_BookIssue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form4_info.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4_info.designer.cs">
+      <DependentUpon>Form4_info.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form0_login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form0_login.designer.cs">
+      <DependentUpon>Form0_login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3_account.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3_account.designer.cs">
+      <DependentUpon>Form3_account.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form6_membership.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form6_membership.designer.cs">
+      <DependentUpon>Form6_membership.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form12_std.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form12_std.designer.cs">
+      <DependentUpon>Form12_std.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1_dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1_dashboard.Designer.cs">
+      <DependentUpon>Form1_dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2_Books.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2_Books.Designer.cs">
+      <DependentUpon>Form2_Books.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LBMSDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LBMSDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form14_emp.resx">
+      <DependentUpon>Form14_emp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form13_teacher.resx">
+      <DependentUpon>Form13_teacher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form11_credits.resx">
+      <DependentUpon>Form11_credits.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form10_users.resx">
+      <DependentUpon>Form10_users.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form9_backup.resx">
+      <DependentUpon>Form9_backup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form8_BookReturn.resx">
+      <DependentUpon>Form8_BookReturn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form7_BookIssue.resx">
+      <DependentUpon>Form7_BookIssue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4_info.resx">
+      <DependentUpon>Form4_info.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form0_login.resx">
+      <DependentUpon>Form0_login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3_account.resx">
+      <DependentUpon>Form3_account.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form6_membership.resx">
+      <DependentUpon>Form6_membership.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form12_std.resx">
+      <DependentUpon>Form12_std.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1_dashboard.resx">
+      <DependentUpon>Form1_dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2_Books.resx">
+      <DependentUpon>Form2_Books.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="LBMSDataSet.xsc">
+      <DependentUpon>LBMSDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="LBMSDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LBMSDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LBMSDataSet.xss">
+      <DependentUpon>LBMSDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
